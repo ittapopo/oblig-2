@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nb">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Uteliv Bergen</title>
+    <link rel="stylesheet" href="css/demo.css">
+    <script type="text/javascript" src="js/demo.js"></script>
+  </head>
+  <body onload="initialize();">
+    <!-- Header start -->
+    <div id="header" class="container">
+    <img alt="Image would not load" class="cover-img" src="img/Bryggen1.jpg">
+  </div>
+    <!-- Header end -->
+
+    <!-- NavBar start -->
+    <div class="topnav">
+     <a href="index.html">Forside</a>
+     <a href="NightlifePage.html">Utesteder</a>
+     <a class="active" href="MapPage.html">Kart</a>
+   </div>
+    <!-- NavBar end -->
+
+    <!-- Page content start -->
+    <h3>My Google Maps Demo</h3>
+    <div class="container" id="map"></div>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key= AIzaSyDjM2k_K1AyHUHMTfL_lRaj0gcAG3tHssQ &callback=initMap">
+    </script>
+    <!-- Page content end -->
+
+    <!-- Footer start -->
+    <div class="copyright">
+      &copy; 2017 Uteliv Bergen. All rights reserved.
+    </div>
+    <!-- Footer end -->
+  </body>
+</html>
